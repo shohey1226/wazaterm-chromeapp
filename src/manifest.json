@@ -1,1 +1,9 @@
-{"manifest_version":2,"name":"Wazaterm","description":"A shortcut app of Wazaterm","version":"1.0","icons":{"128":"img/icon.png"},"app":{"background":{"scripts":["js/background.js"],"pages":["html/embed.html"]}},"permissions":["webview","fullscreen"]}
+{
+  "manifest_version": 2,
+  "name": "Wazaterm",
+  "description": "A chrome app for Wazaterm",
+  "version": "1.1",
+  "icons": { "128": "img/icon.png" },
+  "app": { "background": { "scripts": ["js/background.js"], "pages": ["html/embed.html"] } },
+  "permissions": ["webview", "fullscreen"]
+}
